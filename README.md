@@ -24,9 +24,9 @@ Show transactions in 2020 join by date table
 
 SELECT transactions.*, date.* FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020;
 
-#Revenue Analysis using Tableau
+# Revenue Analysis using Tableau
 ![WhatsApp Image 2023-09-10 at 00 24 45](https://github.com/indu-bhushan/Sales_Insights_Data_Analysis_Project/assets/76640383/abb5bb7c-1c77-41bb-8045-29461098544a)
 
-#Profit Analysis using Tableau
+# Profit Analysis using Tableau
 ![WhatsApp Image 2023-09-10 at 13 08 07](https://github.com/indu-bhushan/Sales_Insights_Data_Analysis_Project/assets/76640383/d18a953d-4950-4dec-b589-6401d2083d6f)
 

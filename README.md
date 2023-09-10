@@ -2,8 +2,9 @@
 Data Analysis Using SQL
 Show all customer records
 
+```
 SELECT * FROM customers;
-
+```
 Show total number of customers
 
 SELECT count(*) FROM customers;
